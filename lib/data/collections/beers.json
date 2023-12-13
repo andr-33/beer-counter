@@ -1,0 +1,32 @@
+[
+    {
+        "type": "Lata",
+        "amount": 0,
+        "liters": 0.33,
+        "image":"can beer.png"
+    },
+    {
+        "type": "Litrona",
+        "amount": 0,
+        "liters": 1,
+        "image":"bootle beer.png"
+    },
+    {
+        "type": "Barril",
+        "amount": 0,
+        "liters": 30,
+        "image":"keg beer.png"
+    },
+    {
+        "type": "Jarra",
+        "amount": 0,
+        "liters": 0.5,
+        "image":"mug beer.png"
+    },
+    {
+        "type": "Caña",
+        "amount": 0,
+        "liters": 0.2,
+        "image":"glass beer.png"
+    }
+]
