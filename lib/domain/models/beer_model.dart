@@ -11,4 +11,13 @@ class BeerModel{
     this.image,
   });
 
+  factory BeerModel.fromJSON(Map<String, dynamic> json){
+    return BeerModel(
+      type: json['type'], 
+      amount: json['amount'], 
+      liters: json['liters'],
+      image: json['image']
+    );
+  }
+
 }

@@ -1,18 +1,20 @@
 
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:beer_counter/domain/models/beer_model.dart';
+import 'package:flutter/services.dart';
 
-/*Future<List<BeerModel>> getBeersInformation() async{
+Future<List<BeerModel>> getBeersInformation() async{
   try{
-    final collection = File('lib/data/collections/beers.json');
-    final content = await collection.readAsString();
+    final collection = await rootBundle.loadString('lib/data/collections/beers.json');
 
-    final List<dynamic> res = json.decode(content);
+    final List<dynamic> res = json.decode(collection);
+    final List<BeerModel> beers = res.map((beer) => BeerModel.fromJSON(beer)).toList();
 
+    return beers;
   }
   catch(e){
     print("Err: $e");
+    return[];
   }
-}*/
+}

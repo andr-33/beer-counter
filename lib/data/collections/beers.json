@@ -8,13 +8,13 @@
     {
         "type": "Litrona",
         "amount": 0,
-        "liters": 1,
-        "image":"bootle beer.png"
+        "liters": 1.0,
+        "image":"bottle beer.png"
     },
     {
         "type": "Barril",
         "amount": 0,
-        "liters": 30,
+        "liters": 30.0,
         "image":"keg beer.png"
     },
     {
@@ -26,7 +26,7 @@
     {
         "type": "Caña",
         "amount": 0,
-        "liters": 0.2,
+        "liters": 0.4,
         "image":"glass beer.png"
     }
 ]

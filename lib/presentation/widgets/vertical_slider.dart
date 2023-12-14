@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class HorizontalSlider extends StatefulWidget{
+class VerticalSlider extends StatefulWidget{
   final Widget child;
 
-  const HorizontalSlider({
+  const VerticalSlider({
     super.key,
     required this.child
   });
 
   @override
-  State<HorizontalSlider> createState ()=> _HorizontalSliderState();
+  State<VerticalSlider> createState ()=> _VerticalSliderState();
 }
 
-class _HorizontalSliderState extends State<HorizontalSlider>{
+class _VerticalSliderState extends State<VerticalSlider>{
   double _translateY = 0;
   bool _isSwiping = false;
 
