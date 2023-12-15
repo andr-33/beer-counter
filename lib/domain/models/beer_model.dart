@@ -13,10 +13,10 @@ class BeerModel{
 
   factory BeerModel.fromJSON(Map<String, dynamic> json){
     return BeerModel(
-      type: json['type'], 
-      amount: json['amount'], 
-      liters: json['liters'],
-      image: json['image']
+      type: json['type'] as String, 
+      amount: json['amount'] as int, 
+      liters: json['liters'] as double,
+      image: json['image'] as String
     );
   }
 
