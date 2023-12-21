@@ -19,7 +19,7 @@ class CounterScreen extends StatelessWidget {
                   CarouselOptions(enableInfiniteScroll: false, height: 500),
               items: snapshot.data?.map((beer) {
                 return Padding(
-                    padding: EdgeInsets.symmetric(vertical: 20),
+                    padding: const EdgeInsets.symmetric(vertical: 20),
                     child: BeerCounter(
                       beer: beer,
                     ));
