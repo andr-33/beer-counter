@@ -18,7 +18,7 @@ const AddButton = ({ setCount }) => {
       onPress={onPressAdd}
       onPressIn={handleIsPressed}
       onPressOut={handleIsPressed}
-      className={`p-5 mx-2 rounded-full transition-colors ${
+      className={`p-5 ml-5 rounded-full transition-colors ${
         isPressed ? "bg-green-500/60" : "bg-green-500"
       }`}
     >
